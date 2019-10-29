@@ -1,0 +1,7 @@
+select event_date between date_add('day',7,current_date)
+
+
+select date_parse(eta,'%Y-%m-%d %h:%i:%s')
+
+
+
